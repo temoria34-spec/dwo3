@@ -15,7 +15,7 @@ fn main() {
     temp = input.trim().parse().expect("Not a number");
 
     // Checking the input value against the freezing point in fahrenheit
-    if temp <= 32.0 {
+    if temp >= 32.0 {
         println!("Above freezing");
     } else {
         println!("Below freezing");

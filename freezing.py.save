@@ -1,0 +1,6 @@
+temp = float(input( "25" )
+
+if temp >= 32:
+    print("Above freezing")
+else:
+    print("Below freezing")
